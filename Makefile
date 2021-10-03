@@ -1,4 +1,4 @@
 .PHONY: deps
 deps:
-	go get .
+	go install
 	asdf reshim golang
